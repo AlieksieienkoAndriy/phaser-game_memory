@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    canvas {
+      width: 100%;
+    }
+    @font-face {
+      font-family: 'CurseCasual';
+      src: url('assets/fonts/CurseCasual.ttf');
+    }
+    .fontPreload {
+      font-family: 'CurseCasual';
+      position: absolute;
+      left: -100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="fontPreload">.</div>>                 <!--необходимый элемент для быстрой загрузки подкючаемого шрифта-->>
+  <script src="assets/scripts/phaser.js"></script>
+  <script src="assets/scripts/Card.js"></script>
+  <script src="assets/scripts/GameScene.js"></script>
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
